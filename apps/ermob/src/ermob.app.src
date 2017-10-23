@@ -1,0 +1,21 @@
+{application, ermob,
+ [{description, "Network tests, downlink,uplink,rtt, phone calls"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { ermob_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    crypto,
+    inets,
+    mnesia,
+    lager,
+    poolboy
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
