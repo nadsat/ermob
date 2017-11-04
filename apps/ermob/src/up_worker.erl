@@ -49,8 +49,8 @@ terminate(_Reason, _State) ->
     error_logger:info_msg("Leaving up_measure\n"),
     ok.
 
-code_change(_OldVsn, State, Data ) ->
-    {ok, State, Data}.
+code_change(_OldVsn, State, _Data) ->
+    {ok, State}.
 
 
 %Internal functions
